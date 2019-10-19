@@ -1,0 +1,39 @@
+/*INLINE HEADER and NAVIGATION*/
+.inline_nav {
+    color: orangered;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+
+}
+
+.inline_nav li {
+    display: inline;
+}
+
+.inline_nav_link {
+    color: #767d85 ;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    border: none;
+
+}
+
+
+#inl_menu .current_page_item a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#inl_menu .current_page_item > a:active{
+    color: #f6755e;
+    border-radius: 5px;
+}
